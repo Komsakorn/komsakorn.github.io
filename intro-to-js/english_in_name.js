@@ -1,5 +1,5 @@
 function askMyName(){
-    const name = prompt("enter you name") // เรียกใช้คำสั่ง prompt เพื่อถามชื่อ https://www.w3schools.com/jsref/met_win_prompt.asp
+    const name = prompt("enter your name") // เรียกใช้คำสั่ง prompt เพื่อถามชื่อ https://www.w3schools.com/jsref/met_win_prompt.asp
     if (name != null) {
        document.getElementById("q-name").innerHTML = "My name is " + name;
     }
