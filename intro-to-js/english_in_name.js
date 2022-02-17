@@ -7,5 +7,5 @@ function askMyName(){
  
  function helloWorld() {
  const h1message = document.getElementById("q-name").innerHTML// ใช้คำสั่ง document.getElementById เหมือนใน askMyName เพื่อเอาข้อความใน h1 มาใส่
-    alert(h1message + 'ถึงจะไม่หล่อแต่ก็น่าห่อกลับบ้าน')
+    alert(h1message + '_เพราะรักมันทำร้าย เลยต้องย้ายมาทำรถ')
  }
