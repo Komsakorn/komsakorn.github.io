@@ -17,9 +17,9 @@ function askMyName(){
  }
 }
 
-function loadprofile() {
+function loadProfile() {
    let myname = 'Komsakorn' 
-   let myprovince = 'Hokkaido' 
+   let myprovince = 'Hokkaido'
       document.getElementById("my-name").innerHTML = myname;
       document.getElementById("my-province").innerHTML = myprovince;
 }
