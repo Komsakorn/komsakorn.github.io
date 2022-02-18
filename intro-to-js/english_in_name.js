@@ -9,3 +9,17 @@ function askMyName(){
  const h1message = document.getElementById("q-name").innerHTML// ใช้คำสั่ง document.getElementById เหมือนใน askMyName เพื่อเอาข้อความใน h1 มาใส่
     alert(h1message + '_เพราะรักมันทำร้าย เลยต้องย้ายมาทำรถ')
  }
+ function calAge() { 
+    const year = prompt("enter your birth year (A.C)")
+ if (year != null) {
+   const age = new Date().getFullYear() -year
+   alert('“ยินดีด้วย นายอยู่ในประเทศนี้มา'+ age +'ปีแล้ว"')
+ }
+}
+
+function loadprofile() {
+   let myname = 'Komsakorn' 
+   let myprovince = 'Hokkaido' 
+      document.getElementById("my-name").innerHTML = myname;
+      document.getElementById("my-province").innerHTML = myprovince;
+}
